@@ -33,7 +33,7 @@ export default function RootLayout({
       className={`${fontSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="dark">
           <TooltipProvider>{children}</TooltipProvider>
           <Toaster />
         </ThemeProvider>
