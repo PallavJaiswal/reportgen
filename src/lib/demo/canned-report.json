@@ -1,0 +1,159 @@
+{
+  "generatedAt": "2026-07-05T23:25:20.923Z",
+  "executiveSummary": {
+    "headline": "Revenue grew modestly this month (+0.5% MoM, $165,438) but unit volume fell 4.0% and several SKUs face imminent stockouts that threaten near-term sales momentum.",
+    "sections": [
+      {
+        "heading": "Performance overview",
+        "bullets": [
+          "Total revenue reached $165,438, up 0.5% MoM and up a strong 15.0% QoQ.",
+          "Units sold declined 4.0% MoM to 1,302 despite a 14.8% QoQ gain, signaling a possible late-month slowdown.",
+          "Order volume dropped 4.6% MoM to 185 orders, tracking the same direction as units sold.",
+          "Average margin held steady at 57.7%, down only 0.4% MoM, showing pricing discipline despite volume softness.",
+          "Return rate improved sharply, down 9.9% MoM and 20.1% QoQ to 4.9%, though still up 1.6% YoY."
+        ]
+      },
+      {
+        "heading": "Key anomalies & root causes",
+        "bullets": [
+          "WM-215 saw a massive demand spike the week of 2025-11-23 (135 units vs. ~21 expected), the largest anomaly detected.",
+          "WM-181 spiked to 89 units the week of 2026-02-08 versus an expected ~19, roughly 4.7x baseline.",
+          "Multiple SKUs (WM-191, WM-271, WM-250, WM-251, WM-141) show recurring above-baseline weekly spikes across the past year, suggesting promotional or seasonal demand surges rather than isolated events.",
+          "WM-271 had two separate spike events (2025-07-20 and 2025-11-16), indicating a recurring pattern worth investigating for planning purposes."
+        ]
+      },
+      {
+        "heading": "Risks & opportunities",
+        "bullets": [
+          "Compass Nav Watch is critically understocked with only 2 units on hand at DC-East against a reorder point of 43.",
+          "Five additional SKUs (Ridge Merino Base Layer, Summit Trekking Poles, Summit Camp Stove, Basecamp 4P Tent, Compass Headlamp 400) are below reorder points across DC-North, DC-South, DC-East, and DC-West.",
+          "Top performers WM-190 (+42.6% MoM) and WM-140 (+56.3% MoM) are driving growth and offer expansion opportunity.",
+          "Bottom performers WM-161 and WM-250 both declined 23.3% MoM, dragging down overall unit and revenue trends.",
+          "WM-181 and WM-191 appear in both the anomaly list and the performer lists, suggesting spike-driven volatility is masking underlying weaker baseline demand."
+        ]
+      },
+      {
+        "heading": "Outlook",
+        "bullets": [
+          "If stockouts on Compass Nav Watch and other flagged SKUs are not resolved, expect order volume and units sold to decline further next month.",
+          "Continued margin stability (57.7%) suggests room to run targeted promotions on bottom performers without materially hurting profitability.",
+          "QoQ trends across revenue (+15.0%) and units (+14.8%) remain strong, indicating the MoM softness may be short-term rather than a trend reversal."
+        ]
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Expedite replenishment for Compass Nav Watch at DC-East",
+        "detail": "Stock is at 2 units versus a reorder point of 43, creating near-certain stockout risk that will directly reduce units sold and order volume.",
+        "relatedKpi": "Units sold / Order volume"
+      },
+      {
+        "title": "Investigate root cause of WM-215 and WM-181 demand spikes",
+        "detail": "Both SKUs showed 4-6x baseline weekly demand, and understanding whether this was promotional, viral, or data-driven will improve forecast accuracy and inventory planning.",
+        "relatedKpi": "Units sold (anomaly detection)"
+      },
+      {
+        "title": "Review pricing and promotion strategy for WM-161 and WM-250",
+        "detail": "Both bottom performers fell 23.3% MoM, the steepest declines in the portfolio, and warrant a markdown or bundling review to stem revenue loss.",
+        "relatedKpi": "Revenue by SKU"
+      },
+      {
+        "title": "Reallocate inventory buffers across DC-North, DC-South, DC-East, and DC-West",
+        "detail": "Six SKUs are simultaneously below reorder points across four distribution centers, indicating a systemic replenishment lag rather than isolated incidents.",
+        "relatedKpi": "Stockout risk / Reorder point"
+      },
+      {
+        "title": "Capitalize on WM-190 and WM-140 momentum with expanded marketing spend",
+        "detail": "Both SKUs grew over 40% MoM and can help offset the 4.0% MoM decline in overall units sold.",
+        "relatedKpi": "Revenue by SKU / Units sold"
+      }
+    ]
+  },
+  "anomalyExplanations": [
+    {
+      "metricLabel": "Monthly revenue",
+      "dimensionValue": "East",
+      "keywords": [
+        "east",
+        "monthly revenue"
+      ],
+      "explanation": "In January, the East region's revenue came in dramatically below its typical run-rate, and the sample transactions tell a clear story: this wasn't a broad slowdown across the product line but a near-total absence of volume. The sample is dominated by single-unit or small-batch sales scattered across a wide range of unrelated products, from backpacks and hydration bladders to beanies and hardshell jackets, with no signs of the higher-frequency, higher-volume orders that would normally build a healthy monthly total. Notably, only the Alpine Hardshell Jacket shows any repeat activity, and even that is just two modest orders. This pattern looks less like weak demand for any specific product and more like a region-wide disruption, such as a fulfillment, inventory, or reporting gap that prevented normal order flow from being captured or shipped in East during January. Given how sharply revenue fell short of expectations, this warrants an urgent operational check to confirm whether sales were actually lost or simply not recorded, since either scenario has material implications for regional forecasting and customer service."
+    },
+    {
+      "metricLabel": "Monthly revenue",
+      "dimensionValue": "West",
+      "keywords": [
+        "west",
+        "monthly revenue"
+      ],
+      "explanation": "West region revenue in November came in well above its usual run-rate, and the sample transactions point to broad-based strength rather than one blockbuster deal. Sales are spread across a wide mix of SKUs and channels—Basecamp tents and Voyager sleeping bags through Retail and Wholesale, Trailrunner boots and shoes via Unknown and Online channels, plus steady repeat orders of Aqua Filter Bottles (appearing on both Nov 12 and Nov 26) and Hydration Bladders—suggesting the lift came from consistent, elevated demand throughout the month rather than a single large or anomalous order. This pattern is consistent with a genuine seasonal or promotional uptick (e.g., pre-winter gear buying) rather than a data error, since no single row is large enough on its own to explain the gap versus baseline. For the business, this matters because it may signal an early seasonal demand shift in the West that could warrant adjusted inventory planning for tents, boots, and hydration gear, and it's worth confirming whether a specific promotion or wholesale restocking event in mid-to-late November drove the multi-channel pickup so it can be replicated or planned for going forward."
+    },
+    {
+      "metricLabel": "Weekly units sold",
+      "dimensionValue": "WM-215",
+      "keywords": [
+        "wm-215",
+        "weekly units sold"
+      ],
+      "explanation": "During the week of November 23rd, the Voyager Sleeping Pad (WM-215) sold at roughly six and a half times its normal weekly pace, driven almost entirely by a spike on the very first day, Black Friday-eve Sunday, November 23rd itself. That single day saw unusually large, matching orders of a dozen units each from the West region across both Wholesale and Online channels, plus another dozen from the East region via Online, suggesting a coordinated bulk purchase or promotional/holiday stocking event rather than organic retail demand. Sales for the rest of the week reverted to the normal handful of units per day across Retail and Wholesale, confirming the anomaly was concentrated in that opening-day surge rather than a sustained trend. This matters because it likely reflects a one-time event, such as a Black Friday wholesale order or an inventory pre-buy, and should be validated before adjusting demand forecasts or reorder points for WM-215, otherwise the business risks over-forecasting future weekly demand based on a non-recurring spike."
+    },
+    {
+      "metricLabel": "Weekly units sold",
+      "dimensionValue": "WM-181",
+      "keywords": [
+        "wm-181",
+        "weekly units sold"
+      ],
+      "explanation": "Summit Camp Stove (WM-181) sold roughly 5x its normal weekly pace, and the surge is concentrated in one place: a single West region Online order of 45 units on Feb 11, while every other region/channel combination that week looked like business as usual (single-digit units in Retail, Wholesale, and other Online transactions). That one transaction alone accounts for about half of the week's total volume, strongly suggesting a bulk purchase, a promotional push, or a possible data entry duplication rather than a genuine broad-based demand increase. Because unit pricing stayed flat at $64 throughout, this isn't a pricing-driven spike, it's purely a volume event tied to one order. This matters because if it's a real bulk sale, sales and demand-planning teams should confirm it was fulfilled correctly and check inventory impact for West/Online; if it's an error or a one-off wholesale-style deal misclassified as Online, finance and forecasting models should be corrected before this skews reorder points or revenue projections for WM-181."
+    },
+    {
+      "metricLabel": "Monthly returned units",
+      "dimensionValue": "WM-181",
+      "keywords": [
+        "wm-181",
+        "monthly returned units"
+      ],
+      "explanation": "In June 2025, returns for SKU WM-181 spiked well above its typical monthly pace, roughly triple the norm. The sample data shows this wasn't a single event but a cluster of separate incidents spread across the month (June 2, 15, 17, and two on June 21), with \"Defective\" cited as the reason in three of the five sample returns and refunds ranging from $66 to $123. The repeated defect-related returns, especially the two logged on the same day (June 21, orders ORD-100477 and ORD-100478), suggest a possible quality or batch issue with this product rather than random customer preference changes. This matters because it points to potential rising product quality costs and customer dissatisfaction that could escalate if the underlying defect isn't addressed, and it's worth checking whether these units share a common manufacturing lot or supplier batch. Left unresolved, this could drive further refund costs and erode trust in the WM-181 product line."
+    }
+  ],
+  "qaExamples": [
+    {
+      "question": "Why did the East region underperform?",
+      "keywords": [
+        "east",
+        "region"
+      ],
+      "answer": "The data provided doesn't include any regional performance breakdowns (East, West, North, South are only mentioned as distribution center locations for stockout risk items). There's no information here about regional revenue, units sold, or other KPIs by region, so I can't determine why the East region underperformed. If you have a regional performance report, that would be needed to answer this question accurately."
+    },
+    {
+      "question": "Which SKU is growing the fastest?",
+      "keywords": [
+        "sku",
+        "growing",
+        "fastest",
+        "top",
+        "performer"
+      ],
+      "answer": "Based on month-over-month revenue growth, SKU WM-140 is growing the fastest, up 56.3% MoM with $16,425 in revenue. This outpaces the next-fastest grower, WM-190, which rose 42.6% MoM to $24,153. Both are among the top-performing SKUs, but WM-140 shows the strongest relative momentum this period."
+    },
+    {
+      "question": "Are there any inventory risks?",
+      "keywords": [
+        "inventory",
+        "stock",
+        "stockout",
+        "reorder"
+      ],
+      "answer": "Yes, there are six stockout risks flagged, all tied to inventory levels falling below their reorder points across different distribution centers. The most severe is Compass Nav Watch at DC-East, which has only 2 units on hand against a reorder point of 43. Other notable risks include Summit Camp Stove (34 vs. 48) and Basecamp 4P Tent (50 vs. 74), while Ridge Merino Base Layer and Summit Trekking Poles are close to their thresholds. These should be prioritized for restocking to avoid running out of inventory."
+    },
+    {
+      "question": "What's driving the return rate?",
+      "keywords": [
+        "return",
+        "returns",
+        "defect"
+      ],
+      "answer": "The data doesn't contain information on what's driving the return rate—there's no breakdown by SKU, reason code, or category for returns. What we do know is that the return rate is 4.9%, down 9.9% MoM and down 20.1% QoQ, but up 1.6% YoY, indicating recent improvement despite being slightly worse than a year ago. To identify the actual drivers, you'd need additional data such as return reasons, product-level return rates, or customer feedback."
+    }
+  ]
+}

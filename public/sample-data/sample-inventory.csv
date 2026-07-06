@@ -1,0 +1,73 @@
+SKU,Product Name,Warehouse,On Hand,Reorder Pt,Unit Cost
+WM-101,Trailhead Backpack 28L,DC-North,249,63,38.00
+WM-101,Trailhead Backpack 28L,DC-South,210,40,38.00
+WM-101,Trailhead Backpack 28L,DC-East,253,76,38.00
+WM-101,Trailhead Backpack 28L,DC-West,369,76,38.00
+WM-102,Trailhead Backpack 45L,DC-North,382,55,55.00
+WM-102,Trailhead Backpack 45L,DC-South,121,40,55.00
+WM-102,Trailhead Backpack 45L,DC-East,357,36,55.00
+WM-102,Trailhead Backpack 45L,DC-West,181,73,55.00
+WM-140,Alpine Hardshell Jacket,DC-North,291,49,96.00
+WM-140,Alpine Hardshell Jacket,DC-South,223,68,96.00
+WM-140,Alpine Hardshell Jacket,DC-East,150,70,96.00
+WM-140,Alpine Hardshell Jacket,DC-West,203,79,96.00
+WM-141,Alpine Softshell Vest,DC-North,299,47,54.00
+WM-141,Alpine Softshell Vest,DC-South,334,48,54.00
+WM-141,Alpine Softshell Vest,DC-East,112,71,54.00
+WM-141,Alpine Softshell Vest,DC-West,394,72,54.00
+WM-160,Ridge Merino Base Layer,DC-North,39,50,22.00
+WM-160,Ridge Merino Base Layer,DC-South,57,36,22.00
+WM-160,Ridge Merino Base Layer,DC-East,182,37,22.00
+WM-160,Ridge Merino Base Layer,DC-West,59,58,22.00
+WM-161,Ridge Merino Beanie,DC-North,160,79,8.00
+WM-161,Ridge Merino Beanie,DC-South,83,46,8.00
+WM-161,Ridge Merino Beanie,DC-East,196,76,8.00
+WM-161,Ridge Merino Beanie,DC-West,344,79,8.00
+WM-180,Summit Trekking Poles (Pair),DC-North,345,35,29.00
+WM-180,Summit Trekking Poles (Pair),DC-South,45,46,29.00
+WM-180,Summit Trekking Poles (Pair),DC-East,255,54,29.00
+WM-180,Summit Trekking Poles (Pair),DC-West,276,31,29.00
+WM-181,Summit Camp Stove,DC-North,372,53,24.00
+WM-181,Summit Camp Stove,DC-South,111,32,24.00
+WM-181,Summit Camp Stove,DC-East,34,48,24.00
+WM-181,Summit Camp Stove,DC-West,122,73,24.00
+WM-190,Basecamp 2P Tent,DC-North,351,53,112.00
+WM-190,Basecamp 2P Tent,DC-South,211,54,112.00
+WM-190,Basecamp 2P Tent,DC-East,318,54,112.00
+WM-190,Basecamp 2P Tent,DC-West,384,44,112.00
+WM-191,Basecamp 4P Tent,DC-North,86,,158.00
+WM-191,Basecamp 4P Tent,DC-South,347,77,158.00
+WM-191,Basecamp 4P Tent,DC-East,87,31,158.00
+WM-191,Basecamp 4P Tent,DC-West,50,74,158.00
+WM-210,Voyager Sleeping Bag 20F,DC-North,112,69,68.00
+WM-210,Voyager Sleeping Bag 20F,DC-South,162,74,68.00
+WM-210,Voyager Sleeping Bag 20F,DC-East,389,,68.00
+WM-210,Voyager Sleeping Bag 20F,DC-West,360,79,68.00
+WM-215,Voyager Sleeping Pad,DC-North,398,41,34.00
+WM-215,Voyager Sleeping Pad,DC-South,197,59,34.00
+WM-215,Voyager Sleeping Pad,DC-East,362,50,34.00
+WM-215,Voyager Sleeping Pad,DC-West,360,41,34.00
+WM-230,Trailrunner Trail Shoe,DC-North,172,62,48.00
+WM-230,Trailrunner Trail Shoe,DC-South,97,68,48.00
+WM-230,Trailrunner Trail Shoe,DC-East,82,61,48.00
+WM-230,Trailrunner Trail Shoe,DC-West,280,35,48.00
+WM-231,Trailrunner Hiking Boot,DC-North,40,,66.00
+WM-231,Trailrunner Hiking Boot,DC-South,278,49,66.00
+WM-231,Trailrunner Hiking Boot,DC-East,212,67,66.00
+WM-231,Trailrunner Hiking Boot,DC-West,183,79,66.00
+WM-250,Aqua Filter Bottle 750ml,DC-North,208,49,14.00
+WM-250,Aqua Filter Bottle 750ml,DC-South,312,32,14.00
+WM-250,Aqua Filter Bottle 750ml,DC-East,244,56,14.00
+WM-250,Aqua Filter Bottle 750ml,DC-West,388,68,14.00
+WM-251,Aqua Hydration Bladder 2L,DC-North,161,62,12.00
+WM-251,Aqua Hydration Bladder 2L,DC-South,251,,12.00
+WM-251,Aqua Hydration Bladder 2L,DC-East,271,51,12.00
+WM-251,Aqua Hydration Bladder 2L,DC-West,51,44,12.00
+WM-270,Compass Nav Watch,DC-North,43,41,82.00
+WM-270,Compass Nav Watch,DC-South,278,80,82.00
+WM-270,Compass Nav Watch,DC-East,2,43,82.00
+WM-270,Compass Nav Watch,DC-West,130,52,82.00
+WM-271,Compass Headlamp 400,DC-North,147,30,16.00
+WM-271,Compass Headlamp 400,DC-South,336,75,16.00
+WM-271,Compass Headlamp 400,DC-East,386,31,16.00
+WM-271,Compass Headlamp 400,DC-West,37,59,16.00
