@@ -4,6 +4,7 @@ import "./globals.css";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Analytics } from "@vercel/analytics/next";
 
 const fontSans = Plus_Jakarta_Sans({
   variable: "--font-sans",
@@ -37,6 +38,7 @@ export default function RootLayout({
           <TooltipProvider>{children}</TooltipProvider>
           <Toaster />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
