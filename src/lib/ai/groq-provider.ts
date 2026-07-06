@@ -15,7 +15,7 @@ import {
 import { coerceExecutiveSummary } from "./coerce-executive-summary";
 
 // Chosen for the public demo: production-stable, fast, and supports JSON
-// mode + tool use. See project-brief.md §3 for the provider architecture.
+// mode + tool use.
 const MODEL = "llama-3.3-70b-versatile";
 
 export class GroqProvider implements AIProvider {

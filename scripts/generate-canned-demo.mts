@@ -1,7 +1,7 @@
 // Runs the real parse -> clean -> stats -> AI pipeline once against the
 // sample dataset and saves the output as static JSON. This is what gets
-// served to demo visitors once they've used their one free AI analysis
-// (project-brief.md §4) — never empty or broken, just not freshly generated.
+// served to demo visitors once they've used their one free AI analysis —
+// never empty or broken, just not freshly generated.
 //
 // Run with: npx tsx scripts/generate-canned-demo.mts
 // Requires ANTHROPIC_API_KEY in .env.local (loaded manually below, since

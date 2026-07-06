@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getAIProvider } from "@/lib/ai/get-ai-provider";
 import type { ReportContext } from "@/lib/ai/types";
-import { isRateLimited } from "@/lib/rate-limit/check-rate-limit";
-import { getClientIp } from "@/lib/rate-limit/get-client-ip";
+import { getRateLimitStatus, applyRateLimitCookie } from "@/lib/rate-limit/check-rate-limit";
 import { DEMO_LIMIT_MESSAGE, findCannedAnswer } from "@/lib/demo/canned-report";
 
 export async function POST(req: NextRequest) {
@@ -17,7 +16,8 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Missing question or report context." }, { status: 400 });
   }
 
-  if (await isRateLimited(getClientIp(req))) {
+  const rateLimit = getRateLimitStatus(req);
+  if (rateLimit.limited) {
     return NextResponse.json({
       answer: findCannedAnswer(body.question),
       limited: true,
@@ -28,7 +28,9 @@ export async function POST(req: NextRequest) {
   try {
     const provider = getAIProvider();
     const answer = await provider.answerQuestion(body.question, body.context as ReportContext);
-    return NextResponse.json({ answer });
+    const response = NextResponse.json({ answer });
+    applyRateLimitCookie(response, rateLimit);
+    return response;
   } catch (err) {
     const message = err instanceof Error ? err.message : "Something went wrong.";
     return NextResponse.json({ error: message }, { status: 500 });

@@ -74,7 +74,7 @@ is built around never doing that:
 - **Data parsing:** [Papaparse](https://www.papaparse.com) (CSV), [SheetJS](https://sheetjs.com) (Excel)
 - **State:** [Zustand](https://zustand-demo.pmnd.rs)
 - **AI:** [Anthropic](https://www.anthropic.com) (local dev) and [Groq](https://groq.com) (production), behind one internal provider interface so switching never touches business logic
-- **Rate limiting:** [Vercel KV](https://vercel.com/docs/storage/vercel-kv) (Upstash Redis)
+- **Rate limiting:** an `httpOnly` cookie — no external store needed
 - **PDF export:** [@react-pdf/renderer](https://react-pdf.org)
 - **Deployment:** [Vercel](https://vercel.com)
 
@@ -98,12 +98,10 @@ unlimited against your own Anthropic key — no rate limiting, no "demo" copy.
 2. Set environment variables in the project settings:
    - `AI_PROVIDER=groq`
    - `GROQ_API_KEY=` your Groq key
-3. *(Optional)* Add a Redis database from the **Storage** tab and connect it
-   to the project — this auto-injects `KV_REST_API_URL` /
-   `KV_REST_API_TOKEN`, which enables the real "one free analysis per
-   visitor" limit. Without it, the app fails open (unlimited) rather than
-   breaking.
-4. Redeploy
+3. Deploy — the "one free analysis per visitor" limit works out of the box
+   via a cookie, no database to provision. It resets if a visitor clears
+   cookies or opens an incognito window, which is an accepted trade-off for
+   a demo-cost boundary rather than a security control.
 
 See `.env.example` for the full list of variables.
 
